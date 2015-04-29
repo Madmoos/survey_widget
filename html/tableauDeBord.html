@@ -1,0 +1,67 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<title>Tableau de bord</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="accueil.html">Accueil</a></li>
+				<li class="selected"><a href="tableauDeBord.html">Tableau de bord</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article class="pageTdb">
+		<section class="one">
+			<h3>Résultats détaillés des examens</h3>
+			<ul>
+				<li>Examen 1 (HTML): 20 / 20</li>
+				<li>Examen 2 (CSS): 10 / 20</li>
+				<li>Examen 3 (HTML): 15 / 20</li>
+				<li>Examen 4 (Javascript): 19 / 20</li>
+				<li>Examen 5 (HTML): 20 / 20</li>
+				<li>Examen 6 (CSS): 10 / 20</li>
+				<li>Examen 7 (HTML): 15 / 20</li>
+				<li>Examen 8 (Javascript): 19 / 20</li>
+				<li>Examen 9 (Javascript): 19 / 20</li>
+				<li>Examen 10 (HTML): 20 / 20</li>
+			</ul>
+		</section>
+		<section class="two">
+			<h2>Débuter un test rapide</h2>
+			<p><a href="testRapide.html">Test rapide</a></p>
+		</section>
+		<section class="three">
+			<h2>Débuter un examen</h2>
+			<form method="POST" action="examen.html">
+				<p>Choisissez le nombre de questions</p>
+				<label for="html">
+					<input type="checkbox" name="html">HTML5
+				</label>
+				<label for="css">
+					<input type="checkbox" name="css">CSS3
+				</label>
+				<label for="js">
+					<input type="checkbox" name="javascript">Javascript
+				</label>
+				<p>Choisissez le nombre de questions</p>
+				<input type="number" min="1" max="999" value="1">
+				<input class="button" type="submit" value="Examen">
+			</form>
+		</section>
+		<section class="four">
+			<h2>Voici vos statistiques</h2>
+			<p>Notes</p>
+			<p>10/15</p>
+			<p>Moyenne</p>
+			<p>15/20</p>
+			<p>Voir détails</p>
+		</section>
+	</article>
+	<footer>
+		<p>Copyright © 2015 Moustapha Amadou Diouf. All rights reserved.</p>
+	</footer>
+</body>
