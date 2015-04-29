@@ -1,0 +1,88 @@
+body{
+	position:absolute;
+	width: 100%;
+	min-height:100%;
+}
+
+body{
+	margin:0;
+}
+
+article{
+	max-width: 100%;
+	max-height:100%;
+	padding:  20px 20px 72px 20px ;
+	margin: auto;
+}
+
+header, footer{
+	padding: 0;
+	height: 52px;
+	background: #000;
+	line-height: 52px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+footer{
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+}
+
+footer p {
+	margin:0px;
+	padding-left: 10px;
+}
+
+nav ul{
+	margin: 0;
+	padding:0;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:white;
+}
+
+nav ul li a:visited{
+	color: white;
+}
+
+nav ul li:hover{
+	background-color: #3D3D3D;
+}
+
+nav ul li.selected, nav ul li.selected:active {
+	background-color: #3D3D3D;
+}
+
+/*
+----------- Accueil
+*/
+
+.pageAccueil  .two p{
+	margin:0;
+}
+
+.pageAccueil  .one img{
+	display:block;
+	margin: auto;
+	max-width: 100%;
+	height:auto;
+}
+
+/*
+----------- Tableau de bord
+*/
+
+.pageTdb .one{
+	display:none;
+}
